@@ -2,7 +2,7 @@
 
 namespace Vereinsverwaltung.Model
 {
-    public class Verein
+    public class Member
     {
         public string Firstname { get; set; }
         public string Lastname { get; set; }
@@ -13,7 +13,6 @@ namespace Vereinsverwaltung.Model
                 return Firstname + " " + Lastname;
             }
         }
-        public DateTime Birthday { get; set; }
-
+        public String Birthdate { get; set; }
     }
 }

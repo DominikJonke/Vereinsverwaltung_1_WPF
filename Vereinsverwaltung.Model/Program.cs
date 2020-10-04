@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Utils
+namespace Vereinsverwaltung.Model
 {
     class Program
     {
         static void Main(string[] args)
         {
-        
+
         }
     }
 }
